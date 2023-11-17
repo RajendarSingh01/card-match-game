@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Card Game</title>
+  </head>
+  <body>
+    <div class="cardGameContainer">
+      <div class="detailsContainer">
+        <div class="p1Details">
+          <div class="cardGamep1">
+            <div class="p1Img">
+              <img src="./img/Img0.png" height="100px" alt="p1 Img" />
+              <h5 id="player1AgentName">Sova</h5>
+            </div>
+            <ul class="abilitys p1Abilitys">
+              <li class="abilityNo1">
+                <img
+                  src="./img/SovaA1.png"
+                  height="40px"
+                  alt="Player 1 Ability"
+                />
+              </li>
+              <li class="abilityNo2">
+                <img
+                  src="./img/SovaA2.png"
+                  height="40px"
+                  alt="Player 2 Ability"
+                />
+              </li>
+              <li class="abilityNo3">
+                <img
+                  src="./img/SovaA3.png"
+                  height="40px"
+                  alt="Player 3 Ability"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="liveScoreBoard">
+          <h1>SCORE BOARD</h1>
+          <div class="liveScore">
+            <h2 class="p1liveScore">00</h2>
+            <h2>:</h2>
+            <h2 class="p2liveScore">00</h2>
+          </div>
+        </div>
+        <div class="p2Details">
+          <div class="cardGamep2">
+            <div class="p2Img">
+              <img src="./img/Img0.png" height="100px" alt="p1 Img" />
+              <h5 id="player2AgentName" >Sova</h5>
+            </div>
+            <ul class="abilitys p2Abilitys">
+              <li class="abilityNo1">
+                <img
+                  src="./img/SovaA1.png"
+                  height="40px"
+                  alt="Player 1 Ability"
+                />
+              </li>
+              <li class="abilityNo2">
+                <img
+                  src="./img/SovaA2.png"
+                  height="40px"
+                  alt="Player 2 Ability"
+                />
+              </li>
+              <li class="abilityNo3">
+                <img
+                  src="./img/SovaA3.png"
+                  height="40px"
+                  alt="Player 3 Ability"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="mainCardBox">
+    </div>
+    <!-- Modal -->
+<div id="resultModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="resultMessage"></p>
+    <button class="btn">Play Again</button>
+  </div>
+</div>
+    
+    <script src="CardGame.js"></script>
+  </body>
+</html>
+

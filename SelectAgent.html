@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Match-a-Rama</title>
+  </head>
+  <body>
+    <div class="agentSelectContainer">
+      <img src="./img/card gif.gif" alt="Card flipping gif" />
+      <h1>SELECT PLAYER</h1>
+      <div class="playerSelect">
+        <div class="slider player1">
+          <h4 class="player1Name">Sova</h4>
+          <h4 class="player1Code">P1</h4>
+          <div class="mainSlider p1">
+            <i
+              class="sliderBtn leftP1 fa-solid fa-angles-left"
+              style="color: #ffffff"
+            ></i>
+            <img id="agent1Img" src="./img/Img0.png" alt="AgentPic" />
+            <i
+              class="sliderBtn rightP1 fa-solid fa-angles-right"
+              style="color: #ffffff"
+            ></i>
+          </div>
+          <button class="btn selectP1">SELECT</button>
+        </div>
+        <h2>VS</h2>
+        <div class="slider player2">
+          <h4 class="player2Name">Sova</h4>
+          <h4 class="player2Code">P2</h4>
+          <div class="mainSlider p2">
+            <i
+              class="sliderBtn leftP2 fa-solid fa-angles-left"
+              style="color: #ffffff"
+            ></i>
+            <img id="agent2Img" src="./img/Img0.png" alt="AgentPic" />
+            <i
+              class="sliderBtn rightP2 fa-solid fa-angles-right"
+              style="color: #ffffff"
+            ></i>
+          </div>
+          <button class="btn selectP2">SELECT</button>
+        </div>
+      </div>
+      <p class="timer">1:00</p>
+      <!-- <button class="btn back">BACK</button> -->
+    </div>
+    <script src="SelectAgent.js"></script>
+  </body>
+</html>
